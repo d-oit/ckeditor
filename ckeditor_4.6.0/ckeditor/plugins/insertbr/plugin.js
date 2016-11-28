@@ -7,7 +7,7 @@ CKEDITOR.plugins.add('insertbr',
         editor.ui.addButton('insertbr',
 
             {
-                label: 'Insert BR',
+                label: 'Umbruch einfügen (<br />)',
                 command: 'NewLine',
                 icon: CKEDITOR.plugins.getPath('insertbr') + 'icons/InsertParagraph.png'
             });
